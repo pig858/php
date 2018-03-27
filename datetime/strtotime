@@ -1,0 +1,21 @@
+#strtotime
+  it works like these 
+  //today
+  $today_start = date("Y-m-d 00:00:00", strtotime('today'));
+  $today_end = date("Y-m-d 23:59:59", strtotime('today'));
+  //yesterday
+  $yesterday_start = date("Y-m-d 00:00:00", strtotime('yesterday'));
+  $yesterday_end = date("Y-m-d 23:59:59", strtotime('yesterday'));
+  //this week
+  $week_start = date("Y-m-d 00:00:00", strtotime('monday this week'));
+  $week_end = date("Y-m-d 23:59:59", strtotime('sunday this week'));
+  //last week
+  $last_week_start = date("Y-m-d 00:00:00", strtotime('monday last week'));
+  $last_week_end = date("Y-m-d 23:59:59", strtotime('sunday last week'));
+  //this month
+  $month_start = date('Y-m-d 00:00:00', strtotime('first day of this month')); 
+  $month_end = date("Y-m-d 23:59:59", strtotime('last day of this month'));  
+  //last month
+  $last_month_start = date('Y-m-d 00:00:00', strtotime('first day of last month')); 
+  $last_month_end = date("Y-m-d 23:59:59", strtotime('last day of last month'));  
+			
